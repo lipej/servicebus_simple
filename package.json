@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "receiver": "node receiver.js >> ./logs/receiver.txt"
+    "receiver": "node ./scripts/receiver.js >> ./logs/receiver.txt"
   },
   "keywords": [],
   "author": "Felipe José <lipejose@icloud.com>",
