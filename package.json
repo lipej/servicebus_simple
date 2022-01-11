@@ -1,0 +1,16 @@
+{
+  "name": "servicebus_simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "receiver": "node receiver.js >> ./logs/receiver.txt"
+  },
+  "keywords": [],
+  "author": "Felipe José <lipejose@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^7.4.0",
+    "dotenv": "^11.0.0"
+  }
+}
